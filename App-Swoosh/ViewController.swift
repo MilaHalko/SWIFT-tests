@@ -22,5 +22,10 @@ class ViewController: UIViewController {
                                height: netflix.frame.size.height)
         bgImg.frame = view.frame
     }
+    
+    
+    @IBAction func BackButton( unwindSegue: UIStoryboardSegue) {
+        
+    }
 }
 
