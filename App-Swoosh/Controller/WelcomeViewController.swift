@@ -7,19 +7,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WelcomeViewController: UIViewController {
 
-    @IBOutlet weak var netflix: UIImageView!
+    @IBOutlet weak var Netflix: UIImageView!
     
     @IBOutlet weak var bgImg: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        netflix.frame = CGRect(x: view.frame.size.width / 2 - netflix.frame.size.width / 2,
+        Netflix.frame = CGRect(x: view.frame.size.width / 2 - Netflix.frame.size.width / 2,
                                y: 50,
-                               width: netflix.frame.size.width,
-                               height: netflix.frame.size.height)
+                               width: Netflix.frame.size.width,
+                               height: Netflix.frame.size.height)
         bgImg.frame = view.frame
     }
     
